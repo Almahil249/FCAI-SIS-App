@@ -23,8 +23,8 @@ Future<void> requestLocationPermission() async {
 }
 
 void main() async {
-  //WidgetsFlutterBinding.ensureInitialized();
-  //await requestLocationPermission(); //
+  WidgetsFlutterBinding.ensureInitialized();
+  await requestLocationPermission(); //
 
   runApp(const MyApp());
 }
