@@ -1,16 +1,43 @@
-# login_app
+# FCAI-SIS-App
 
-A new Flutter project.
+FCAI-SIS-App is a Flutter-based application designed to provide a student information system. This project is a multi-platform application that supports Android, iOS, web, Linux, and more.
+
+## Features
+
+- **User Authentication**: Login and signup functionality for students.
+- **Profile Management**: View and update student profiles.
+- **Responsive Design**: Optimized for multiple platforms including mobile, web, and desktop.
+- **Splash Screen**: Displays a splash screen on app startup.
+- **Location Permissions**: Requests and handles location permissions.
+
+## Project Structure
+
+The project is organized as follows:
+
+- **`lib/`**: Contains the main Dart code for the application, including views for login, signup, profile, and splash screen.
+- **`android/`**: Android-specific configuration and code.
+- **`ios/`**: iOS-specific configuration and code.
+- **`web/`**: Web-specific configuration and assets.
+- **`linux/`**: Linux-specific configuration and code.
+- **`pubspec.yaml`**: Defines dependencies and metadata for the Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK: [Install Flutter](https://docs.flutter.dev/get-started/install)
+- Android Studio or Xcode for mobile development.
+- A code editor like Visual Studio Code.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/FCAI-SIS-App.git
+   cd FCAI-SIS-App
+
+2. Install dependencies:
+    flutter pub get
+
+3. Run the app:
+    flutter run
